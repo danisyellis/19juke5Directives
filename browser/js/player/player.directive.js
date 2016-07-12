@@ -4,6 +4,10 @@
 juke.directive('playerDir', function () {
 	return {
 		restrict: 'E',
-		template: 'js/player/player.html'
+		templateUrl: 'js/player/player.html',
+		//controller: 'PlayerCtrl',
+		// link: function (scope) {
+	
+		// }
 	}
-})
+});
